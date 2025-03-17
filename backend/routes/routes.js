@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Simple route to get message
 router.get('/message', (req, res) => {
-  res.json({ message: 'Hello from backend' });
+  res.json({ message: 'Matako ine' });
 });
 
 module.exports = router;
